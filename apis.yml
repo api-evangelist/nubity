@@ -1,7 +1,23 @@
 aid: nubity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nubity.png
 name: Nubity
-description: Nubity is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nubity is an AWS Premier Tier cloud consulting and managed services provider serving enterprises
+  across Latin America, with operations in Mexico and Argentina. It helps organizations modernize legacy
+  systems, migrate to and build cloud-native applications on AWS, deploy cloud contact centers and GenAI
+  and business-intelligence solutions, run managed services and DevOps practices, apply Well-Architected
+  cost optimization, and strengthen cloud security and business continuity. Nubity is a professional-services
+  firm and does not publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/nubity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cloud
+- AWS
+- Managed Services
+- Consulting
+- DevOps
+- Cloud Migration
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nubity-domain-security.yml
 - type: Website
   url: https://nubity.com
+- type: Blog
+  url: https://nubity.com/blogposts/
+- type: Support
+  url: https://nubity.com/contacts/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
