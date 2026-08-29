@@ -30,6 +30,9 @@ description: Nubity is an AWS Premier Tier cloud consulting and managed services
   cost optimization, and strengthen cloud security and business continuity. Nubity is a professional-services
   firm and does not publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/nubity/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Nubity is a professional-services firm and does not publish a public API, developer portal, or SDKs."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
